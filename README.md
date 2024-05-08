@@ -9,16 +9,15 @@ This project focuses on language processing tasks using a BiLSTM neural network.
 - [Usage](#usage)
 - [Training](#training)
 - [Predictions](#predictions)
-- [License](#license)
 
 ## Installation
 This project can be run on Google Colab or any Python environment with the required libraries installed. Ensure you have the following installed:
 - Python 3
-- pandas
-- numpy
-- tensorflow
-- keras
-- google.colab (if running on Google Colab)
+- Pandas
+- Numpy
+- Tensorflow
+- Keras
+- Google.colab (if running on Google Colab)
 
 ## Usage
 1. Clone the repository.
@@ -45,5 +44,4 @@ This project can be run on Google Colab or any Python environment with the requi
 3. Use the trained model to make predictions on the test data.
 4. Display the predicted sentences along with the original ones.
 
-## License
-Include the license information for your project.
+
