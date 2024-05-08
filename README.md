@@ -1,14 +1,7 @@
-# Project Title
+# Turkish Diacritization
 
 ## Description
 This project focuses on language processing tasks using a BiLSTM neural network. The tasks include data preprocessing, model architecture design, training, and prediction.
-
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Training](#training)
-- [Predictions](#predictions)
 
 ## Installation
 This project can be run on Google Colab or any Python environment with the required libraries installed. Ensure you have the following installed:
