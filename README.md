@@ -1,27 +1,49 @@
-# Turkish Diacritization
+# Project Title
 
-This repository contains the code and resources for the Turkish Diacritization project. 
+## Description
+This project focuses on language processing tasks using a BiLSTM neural network. The tasks include data preprocessing, model architecture design, training, and prediction.
 
-## Overview
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Training](#training)
+- [Predictions](#predictions)
+- [License](#license)
 
-To understand a person, it is necessary to understand the language they speak. Accent marks are vital for fully understanding the language, and failure to understand these signs correctly may lead to uncertainty. This project focuses on creating a Turkish diacritization model using deep learning. By predicting and adding diacritics, we aim to improve text clarity for better natural language processing applications.
+## Installation
+This project can be run on Google Colab or any Python environment with the required libraries installed. Ensure you have the following installed:
+- Python 3
+- pandas
+- numpy
+- tensorflow
+- keras
+- google.colab (if running on Google Colab)
 
-## Project Structure
+## Usage
+1. Clone the repository.
+2. Ensure your Google Drive is mounted on Colab or adjust file paths accordingly.
+3. Run the provided code cells in order.
 
-- `data/`: Contains the training and testing datasets.
-- `models/`: Contains saved model checkpoints.
-- `src/`: Contains the source code for the diacritization model.
-- `README.md`: Overview of the project.
-- `LICENSE`: License information for the project.
+## Training
+1. Data preprocessing:
+    - Mount Google Drive and load necessary datasets.
+    - Merge and preprocess the datasets.
+    - Perform ASCII conversion on the text data.
+2. Model architecture:
+    - Implement a BiLSTM neural network using TensorFlow/Keras.
+    - Define the architecture including embedding, bidirectional LSTM layers, and output layer.
+3. Train the model:
+    - Compile the model with appropriate optimizer and loss function.
+    - Train the model on the prepared data.
+4. Save the model:
+    - Save the trained model for later use.
 
-## Requirements
+## Predictions
+1. Load the test dataset.
+2. Tokenize and preprocess the test data.
+3. Use the trained model to make predictions on the test data.
+4. Display the predicted sentences along with the original ones.
 
-- Python 3.x
-- Pandas
-- NumPy
-  
-
-Install the required packages using pip:
-
-```bash
-pip install -r requirements.txt
+## License
+Include the license information for your project.
