@@ -13,9 +13,20 @@ This project can be run on Google Colab or any Python environment with the requi
 - Google.colab (if running on Google Colab)
 
 ## Usage
-1. Clone the repository.
-2. Ensure your Google Drive is mounted on Colab or adjust file paths accordingly.
-3. Run the provided code cells in order.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/beyzanurkeskin/YZV405_2324_150200320_150210313.git
+   ```
+   
+2. Install dependencies:
+   You can install the required Python packages using the following command
+   ```
+   pip install tensorflow keras numpy pandas 
+   ```
+
+3. Run Jupyter Notebooks:
+    Run the provided code cells in order.
 
 ## Training
 1. Data preprocessing:
@@ -31,10 +42,5 @@ This project can be run on Google Colab or any Python environment with the requi
 4. Save the model:
     - Save the trained model for later use.
 
-## Predictions
-1. Load the test dataset.
-2. Tokenize and preprocess the test data.
-3. Use the trained model to make predictions on the test data.
-4. Display the predicted sentences along with the original ones.
 
 
