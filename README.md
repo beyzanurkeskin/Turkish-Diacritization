@@ -1,9 +1,9 @@
 # Turkish Diacritization
 
-## Description
+# Description
 This project focuses on language processing tasks using a BiLSTM neural network. The tasks include data preprocessing, model architecture design, training, and prediction.
 
-## Installation
+# Installation
 This project can be run on Google Colab or any Python environment with the required libraries installed. Ensure you have the following installed:
 - Python 3
 - Pandas
@@ -12,7 +12,7 @@ This project can be run on Google Colab or any Python environment with the requi
 - Keras
 - Google.colab (if running on Google Colab)
 
-## Usage
+# Usage
 
 1. Clone the repository:
    ```bash
@@ -28,7 +28,7 @@ This project can be run on Google Colab or any Python environment with the requi
 3. Run Jupyter Notebooks:
     Run the provided code cells in order.
 
-## Training
+# Training
 1. Data preprocessing:
     - Mount Google Drive and load necessary datasets.
     - Merge and preprocess the datasets.
