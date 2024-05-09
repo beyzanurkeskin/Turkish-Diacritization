@@ -8,7 +8,6 @@ This project can be run on Google Colab or any Python environment with the requi
 - Numpy
 - Tensorflow
 - Keras
-- Google.colab (if running on Google Colab)
 
 # Usage
 
