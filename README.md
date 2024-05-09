@@ -1,5 +1,4 @@
 # Turkish Diacritization
-
 # Description
 This project focuses on language processing tasks using a BiLSTM neural network. The tasks include data preprocessing, model architecture design, training, and prediction.
 
