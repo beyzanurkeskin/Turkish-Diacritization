@@ -25,19 +25,6 @@ This project can be run on Google Colab or any Python environment with the requi
 3. Run Jupyter Notebooks:
     Run the provided code cells in order.
 
-# Training
-1. Data preprocessing:
-    - Mount Google Drive and load necessary datasets.
-    - Merge and preprocess the datasets.
-    - Perform ASCII conversion on the text data.
-2. Model architecture:
-    - Implement a BiLSTM neural network using TensorFlow/Keras.
-    - Define the architecture including embedding, bidirectional LSTM layers, and output layer.
-3. Train the model:
-    - Compile the model with appropriate optimizer and loss function.
-    - Train the model on the prepared data.
-4. Save the model:
-    - Save the trained model for later use.
 
 
 
